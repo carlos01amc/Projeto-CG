@@ -1,0 +1,10 @@
+^C:\USERS\RUBEN\DESKTOP\MINHO\COMPUTAÇÃO GRÁFICA\TRABALHO\PHASE4\ENGINE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ruben/Desktop/Minho/Computação Gráfica/Trabalho/phase4/engine" "-BC:/Users/ruben/Desktop/Minho/Computação Gráfica/Trabalho/phase4/engine/build" --check-stamp-file "C:/Users/ruben/Desktop/Minho/Computação Gráfica/Trabalho/phase4/engine/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

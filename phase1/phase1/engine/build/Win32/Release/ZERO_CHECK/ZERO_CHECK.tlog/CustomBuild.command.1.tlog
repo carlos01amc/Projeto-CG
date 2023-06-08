@@ -1,0 +1,10 @@
+^C:\USERS\CARLO\DESKTOP\UM\3ANO2S\CG\PHASE1\PHASE1\ENGINE\BUILD\CMAKEFILES\4D758A8196D2B9C83968F6960A4B424C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/carlo/Desktop/UM/3ano2s/CG/phase1/phase1/engine -BC:/Users/carlo/Desktop/UM/3ano2s/CG/phase1/phase1/engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/carlo/Desktop/UM/3ano2s/CG/phase1/phase1/engine/build/engine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
