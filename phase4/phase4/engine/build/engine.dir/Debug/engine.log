@@ -1,7 +1,0 @@
-﻿  main.cpp
-C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\main.cpp(553,15): warning C4101: 't_def_aux': variável local não referenciada
-C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\main.cpp(553,8): warning C4101: 't_aux': variável local não referenciada
-C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\main.cpp(554,6): warning C4101: 'align_aux': variável local não referenciada
-C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\main.cpp(514): warning C4715: 'translation_data': nem todos os caminhos de controle retornam um valor
-C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\main.cpp(1577): warning C4715: 'extract_Triangles': nem todos os caminhos de controle retornam um valor
-  engine.vcxproj -> C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase4\engine\build\Debug\engine.exe

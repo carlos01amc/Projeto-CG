@@ -1,1 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1174,5): error MSB3191: Não é possível criar o diretório "C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase2\engine\build\CMakeFiles\". Acesso negado ao caminho 'C:\Users\ruben\Desktop\Minho\Computação Gráfica\Trabalho\phase2\engine\build\CMakeFiles\'.
